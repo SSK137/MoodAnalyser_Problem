@@ -12,11 +12,11 @@ public class MoodAnalyserTest {
         Assertions.assertEquals("SAD",result);
     }
 
-   /* @Test
+    @Test
     public void getMessage_WhenProper_ShouldReturnHappy(){
         MoodAnalyser moodAnalyser=new MoodAnalyser("I am in Happy mood");
         String result=moodAnalyser.AnalyseMood();
         System.out.println(result);
-        Assertions.assertEquals("HAPPY",result);
-    }*/
+        Assertions.assertEquals("SAD",result);
+    }
 }
